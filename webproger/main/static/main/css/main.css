@@ -1,0 +1,50 @@
+body {
+    background: #D2F700;
+    font-family: 'Poppins', sans-serif;
+}
+
+aside {
+    float: left;
+    background: #417867	;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 5px solid #000000;
+}
+
+aside img{
+    width: 80px;
+    float: left;
+}
+
+aside .logo{
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: -5px;
+}
+
+aside h3{
+    margin-top: 50px;
+    font-size: 28px;
+}
+
+aside ul{
+    list-style: none;
+}
+
+aside ul li{
+    color: white;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover,
+aside ul a:hover{
+    color: coral;
+    text-decoration: none;
+    transform: scale(1.05);
+}
